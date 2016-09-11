@@ -1,6 +1,6 @@
 {
-    "name": "gbprod/elastica-specification",
-    "description": "This library allows you to create Elastica queries using the Specification pattern",
+    "name": "gbprod/algolia-specification",
+    "description": "This library allows you to create Algolia queries using the Specification pattern",
     "type": "library",
     "require": {
         "php": ">=5.6",
