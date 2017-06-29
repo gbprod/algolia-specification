@@ -1,7 +1,5 @@
 # Algolia specification
 
-![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
-
 [![Build Status](https://travis-ci.org/gbprod/algolia-specification.svg?branch=master)](https://travis-ci.org/gbprod/algolia-specification)
 [![codecov](https://codecov.io/gh/gbprod/algolia-specification/branch/master/graph/badge.svg)](https://codecov.io/gh/gbprod/algolia-specification)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gbprod/algolia-specification/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gbprod/algolia-specification/?branch=master)

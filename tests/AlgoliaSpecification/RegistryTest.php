@@ -42,9 +42,6 @@ class RegistryTest extends \PHPUnit_Framework_TestCase implements Specification
 
         $registry->register(self::class, $factory);
 
-        $this->assertEquals(
-            $factory,
-            $registry->getFactory($this)
-        );
+        $this->assertEquals($factory, $registry->getFactory($this));
     }
 }

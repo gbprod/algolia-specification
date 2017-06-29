@@ -97,7 +97,7 @@ tools:
             standard: "PSR2"
 
 build_failure_conditions:
-    - 'patches.new.exists'                                  # No patches allowed
-    - 'issues.label("coding-style").new.exists'             # No coding style issues allowed
-    - 'issues.label("documentation").new.exists'            # No documentation issues allowed
-    - 'project.metric("scrutinizer.test_coverage", < 0.60)' # Code Coverage drops below 60%
+    - 'patches.new.exists'
+    - 'issues.label("coding-style").new.exists'
+    - 'issues.label("documentation").new.exists'
+    - 'project.metric("scrutinizer.test_coverage", < 0.60)'
