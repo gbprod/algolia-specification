@@ -66,7 +66,7 @@ $results = $type->search(['filters' => $query]);
 
 ## Requirements
 
- * PHP 5.6+
+ * PHP >= 7.0
 
 ## Installation
 

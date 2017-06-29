@@ -2,18 +2,19 @@
 
 namespace Tests\GBProd\AlgoliaSpecification;
 
+use GBProd\AlgoliaSpecification\Handler;
 use GBProd\AlgoliaSpecification\QueryFactory\AndXFactory;
 use GBProd\AlgoliaSpecification\QueryFactory\Factory;
 use GBProd\AlgoliaSpecification\QueryFactory\NotFactory;
 use GBProd\AlgoliaSpecification\QueryFactory\OrXFactory;
-use GBProd\AlgoliaSpecification\Handler;
 use GBProd\AlgoliaSpecification\Registry;
 use GBProd\Specification\AndX;
 use GBProd\Specification\Not;
 use GBProd\Specification\OrX;
 use GBProd\Specification\Specification;
+use PHPUnit\Framework\TestCase;
 
-class HandlerTest extends \PHPUnit_Framework_TestCase
+class HandlerTest extends TestCase
 {
     /**
      * @var Registry

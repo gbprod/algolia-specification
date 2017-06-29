@@ -29,7 +29,7 @@ class OrXFactory implements Factory
     /**
      * {inheritdoc}
      */
-    public function create(Specification $spec)
+    public function create(Specification $spec): string
     {
         if (!$spec instanceof OrX) {
             throw new \InvalidArgumentException();

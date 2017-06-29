@@ -7,8 +7,9 @@ use GBProd\AlgoliaSpecification\QueryFactory\Factory;
 use GBProd\AlgoliaSpecification\Registry;
 use GBProd\Specification\AndX;
 use GBProd\Specification\Specification;
+use PHPUnit\Framework\TestCase;
 
-class AndXFactoryTest extends \PHPUnit_Framework_TestCase
+class AndXFactoryTest extends TestCase
 {
     public function testConstruct()
     {

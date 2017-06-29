@@ -18,5 +18,5 @@ interface Factory
      *
      * @return string
      */
-    public function create(Specification $spec);
+    public function create(Specification $spec): string;
 }

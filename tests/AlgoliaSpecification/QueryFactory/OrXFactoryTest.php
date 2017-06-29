@@ -2,13 +2,14 @@
 
 namespace Tests\GBProd\AlgoliaSpecification;
 
-use GBProd\AlgoliaSpecification\QueryFactory\OrXFactory;
 use GBProd\AlgoliaSpecification\QueryFactory\Factory;
+use GBProd\AlgoliaSpecification\QueryFactory\OrXFactory;
 use GBProd\AlgoliaSpecification\Registry;
 use GBProd\Specification\OrX;
 use GBProd\Specification\Specification;
+use PHPUnit\Framework\TestCase;
 
-class OrXFactoryTest extends \PHPUnit_Framework_TestCase
+class OrXFactoryTest extends TestCase
 {
     public function testConstruct()
     {

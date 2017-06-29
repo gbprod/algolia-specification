@@ -42,7 +42,7 @@ class Handler
      *
      * @return string
      */
-    public function handle(Specification $spec)
+    public function handle(Specification $spec): string
     {
         $factory = $this->registry->getFactory($spec);
 

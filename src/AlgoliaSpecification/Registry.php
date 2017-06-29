@@ -37,7 +37,7 @@ class Registry
      *
      * @throw OutOfRangeException if Factory not found
      */
-    public function getFactory(Specification $spec)
+    public function getFactory(Specification $spec): Factory
     {
         if (!isset($this->factories[get_class($spec)])) {
             throw new \OutOfRangeException(sprintf(
